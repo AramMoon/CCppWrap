@@ -1,0 +1,6 @@
+module WrapSwift {
+  umbrella header "CCppWrapSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

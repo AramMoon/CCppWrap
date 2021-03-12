@@ -1,0 +1,12 @@
+module WrapSwift {
+  umbrella header "CCppWrapSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module WrapSwift.Swift {
+  header "/Users/aram/03_Private/iOS/CCppWrap/Example/Build/Products/Debug-maccatalyst/CCppWrapSwift/Swift Compatibility Header/WrapSwift-Swift.h"
+  requires objc
+}

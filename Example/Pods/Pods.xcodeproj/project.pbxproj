@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D166954E7044F4FD8962280A8734A30 /* CCppWrapSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BCA9B647A5FAFFECFF82B37D5FB81914 /* CCppWrapSwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		156F72CD9A56BAC01C6BFA413F9C6E01 /* CCppWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2C4409D0C7A63F9EA439DA2F9CF7B5 /* CCppWrap.swift */; };
+		1B3B2CA6C0F0E1A6497D7A52A6BB6CDE /* CppItem.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E36086490D99BE2A94D3F90AFCA44C /* CppItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4007DCFB9596D37A5C9924E37119BEA7 /* CppItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96AF00238D658E82050C8BDD5448F587 /* CppItem.cpp */; };
+		4B992B9CF23B090098AC0B3AD8F468B7 /* Pods-CCppWrap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E9780DA2A4E96120A38CFE13359E6B0 /* Pods-CCppWrap_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		736A69C5ED76D8FB3431A9925EAB4CC7 /* CppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6F94F00504E321B5A65CBE9EFE8D53B /* CppWrapper.mm */; };
+		8283AD34411D4251B27A6727600393B0 /* CCppWrapSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C5BB0917DB79315BDEBC3E0371CF7 /* CCppWrapSwift-dummy.m */; };
+		8465BC22DC230F41AD250BBC0A3FF893 /* CCppWrapObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB06C7930A423E6B314822BD3AF0237 /* CCppWrapObjC-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB7FBBAF756254E336A6F7E9A60B3434 /* CppWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = FB70BC026A5FBE9C43DE672C180C6008 /* CppWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D008449B6E7DA65A2DE4F63762093B7E /* Pods-CCppWrap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AECBD316336A303B5A01D569AED5176E /* Pods-CCppWrap_Example-dummy.m */; };
+		D7D4132C8EEB0A03364D4E7C3873CDCD /* CCppWrapObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA0545208494C3898E30A6B6C2B9E0F /* CCppWrapObjC-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E56BA5C0AE5D1C3BD41D1460F8112C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CAF26D8C190801333575EA96452A1C;
+			remoteInfo = CCppWrapObjC;
+		};
+		127D93EFB9CA8D5A73C78BB06212EEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16CAF26D8C190801333575EA96452A1C;
+			remoteInfo = CCppWrapObjC;
+		};
+		9045CC7A8F59DC3AF91575356ED19FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88611C3E8A4174226D50CC80FCBD3646;
+			remoteInfo = CCppWrapSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9780DA2A4E96120A38CFE13359E6B0 /* Pods-CCppWrap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCppWrap_Example-umbrella.h"; sourceTree = "<group>"; };
+		2C9C5BB0917DB79315BDEBC3E0371CF7 /* CCppWrapSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCppWrapSwift-dummy.m"; sourceTree = "<group>"; };
+		2DB06C7930A423E6B314822BD3AF0237 /* CCppWrapObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCppWrapObjC-umbrella.h"; sourceTree = "<group>"; };
+		413FDC3E57C4D566FBB54BBE83ED5D22 /* CCppWrapSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCppWrapSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		487EF133B9D50E34799C3BF76FF12E5F /* CCppWrapSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCppWrapSwift.modulemap; sourceTree = "<group>"; };
+		4A2C4409D0C7A63F9EA439DA2F9CF7B5 /* CCppWrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCppWrap.swift; path = Sources/WrapSwift/CCppWrap.swift; sourceTree = "<group>"; };
+		4BBEE619F6DD66DCD9805955E3219875 /* libCCppWrapSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCppWrapSwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDA7ED1D5DBBF5CA97FC438B1AD487E /* Pods-CCppWrap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCppWrap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		89879C9CAC3ADC2AF165C2DE7725FA26 /* CCppWrapObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCppWrapObjC.debug.xcconfig; sourceTree = "<group>"; };
+		96AF00238D658E82050C8BDD5448F587 /* CppItem.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CppItem.cpp; path = Sources/WrapObjC/CppItem.cpp; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A14FBEE897129A1EE32DEBE46BCA47 /* CCppWrapSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCppWrapSwift-prefix.pch"; sourceTree = "<group>"; };
+		AECBD316336A303B5A01D569AED5176E /* Pods-CCppWrap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCppWrap_Example-dummy.m"; sourceTree = "<group>"; };
+		B6F94F00504E321B5A65CBE9EFE8D53B /* CppWrapper.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = CppWrapper.mm; path = Sources/WrapObjC/CppWrapper.mm; sourceTree = "<group>"; };
+		BCA9B647A5FAFFECFF82B37D5FB81914 /* CCppWrapSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCppWrapSwift-umbrella.h"; sourceTree = "<group>"; };
+		C1DD7156D275F6BF85BDE8741DD88720 /* Pods-CCppWrap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCppWrap_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C43342818AAA282A6062C5A640F471F3 /* Pods-CCppWrap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCppWrap_Example.modulemap"; sourceTree = "<group>"; };
+		CC717F1E316353D0E35F987F0F7741D2 /* Pods-CCppWrap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCppWrap_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F959DF43A073FA66EE76CF630A89DD /* libCCppWrapObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCCppWrapObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4FB870A9DFE1458ABE70C713145CE7D /* Pods-CCppWrap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCppWrap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D52E6D474C0991A677010DBFAA2B1159 /* CCppWrapSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCppWrapSwift.debug.xcconfig; sourceTree = "<group>"; };
+		DA6D6CFAED499281F53D1CBC2551CA38 /* CCppWrapSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCppWrapSwift.release.xcconfig; sourceTree = "<group>"; };
+		E03E8690A84F1E9264A58B5CA6E0FA9D /* CCppWrapObjC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCppWrapObjC.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4145923D7544B93DB03BBEDF35F0517 /* CCppWrapObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCppWrapObjC.modulemap; sourceTree = "<group>"; };
+		E4E36086490D99BE2A94D3F90AFCA44C /* CppItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CppItem.h; path = Sources/WrapObjC/CppItem.h; sourceTree = "<group>"; };
+		E5456DDFCB923A65562FCD62877EEC8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E564DA0CFBAE85E21935DC2A23590454 /* libPods-CCppWrap_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCppWrap_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA0545208494C3898E30A6B6C2B9E0F /* CCppWrapObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCppWrapObjC-dummy.m"; sourceTree = "<group>"; };
+		ED1D9B51E032E58E859D9D7ACDE808DF /* CCppWrapObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCppWrapObjC.release.xcconfig; sourceTree = "<group>"; };
+		FB70BC026A5FBE9C43DE672C180C6008 /* CppWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CppWrapper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A399D8D86591734B147B19AC3A9AE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C935BC536C4E38242F289EF1A04A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9077DCA0E00B9E31F68D7534E0814B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020595FC99EFAD790C9E33DD1A4E20D6 /* CCppWrapSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4A2C4409D0C7A63F9EA439DA2F9CF7B5 /* CCppWrap.swift */,
+				B836764FBD84211B0EC9ACFDBBD9FDDD /* Pod */,
+				BE50AED41979415CFFD337AB816C3DC7 /* Support Files */,
+			);
+			name = CCppWrapSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		301C9DAD338CDCAB9927C24E48F59F23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4145923D7544B93DB03BBEDF35F0517 /* CCppWrapObjC.modulemap */,
+				ECA0545208494C3898E30A6B6C2B9E0F /* CCppWrapObjC-dummy.m */,
+				2DB06C7930A423E6B314822BD3AF0237 /* CCppWrapObjC-umbrella.h */,
+				89879C9CAC3ADC2AF165C2DE7725FA26 /* CCppWrapObjC.debug.xcconfig */,
+				ED1D9B51E032E58E859D9D7ACDE808DF /* CCppWrapObjC.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCppWrapObjC";
+			sourceTree = "<group>";
+		};
+		50480DA793CD30D57C2E9553CF36DF0B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E74F33CABD8BDFF3D09B4F9E65DB4789 /* CCppWrapObjC */,
+				020595FC99EFAD790C9E33DD1A4E20D6 /* CCppWrapSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54F24E1A9F2454283A86086EF3594FEC /* Pods-CCppWrap_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C43342818AAA282A6062C5A640F471F3 /* Pods-CCppWrap_Example.modulemap */,
+				D4FB870A9DFE1458ABE70C713145CE7D /* Pods-CCppWrap_Example-acknowledgements.markdown */,
+				6DDA7ED1D5DBBF5CA97FC438B1AD487E /* Pods-CCppWrap_Example-acknowledgements.plist */,
+				AECBD316336A303B5A01D569AED5176E /* Pods-CCppWrap_Example-dummy.m */,
+				1E9780DA2A4E96120A38CFE13359E6B0 /* Pods-CCppWrap_Example-umbrella.h */,
+				CC717F1E316353D0E35F987F0F7741D2 /* Pods-CCppWrap_Example.debug.xcconfig */,
+				C1DD7156D275F6BF85BDE8741DD88720 /* Pods-CCppWrap_Example.release.xcconfig */,
+			);
+			name = "Pods-CCppWrap_Example";
+			path = "Target Support Files/Pods-CCppWrap_Example";
+			sourceTree = "<group>";
+		};
+		66E109B546BCF49B4432F7E3B05EEA52 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				FB70BC026A5FBE9C43DE672C180C6008 /* CppWrapper.h */,
+			);
+			name = include;
+			path = Sources/WrapObjC/include;
+			sourceTree = "<group>";
+		};
+		B0AB73975FC67DBC2C2D8F0727B73956 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F959DF43A073FA66EE76CF630A89DD /* libCCppWrapObjC.a */,
+				4BBEE619F6DD66DCD9805955E3219875 /* libCCppWrapSwift.a */,
+				E564DA0CFBAE85E21935DC2A23590454 /* libPods-CCppWrap_Example.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B836764FBD84211B0EC9ACFDBBD9FDDD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				413FDC3E57C4D566FBB54BBE83ED5D22 /* CCppWrapSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE50AED41979415CFFD337AB816C3DC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				487EF133B9D50E34799C3BF76FF12E5F /* CCppWrapSwift.modulemap */,
+				2C9C5BB0917DB79315BDEBC3E0371CF7 /* CCppWrapSwift-dummy.m */,
+				A6A14FBEE897129A1EE32DEBE46BCA47 /* CCppWrapSwift-prefix.pch */,
+				BCA9B647A5FAFFECFF82B37D5FB81914 /* CCppWrapSwift-umbrella.h */,
+				D52E6D474C0991A677010DBFAA2B1159 /* CCppWrapSwift.debug.xcconfig */,
+				DA6D6CFAED499281F53D1CBC2551CA38 /* CCppWrapSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CCppWrapSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				50480DA793CD30D57C2E9553CF36DF0B /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B0AB73975FC67DBC2C2D8F0727B73956 /* Products */,
+				EC9C4AEE598CC34B3EBBA1AC1EFE1BE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D674061BDD4345CA2D0E42C9494CB3DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E03E8690A84F1E9264A58B5CA6E0FA9D /* CCppWrapObjC.podspec */,
+				E5456DDFCB923A65562FCD62877EEC8F /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E74F33CABD8BDFF3D09B4F9E65DB4789 /* CCppWrapObjC */ = {
+			isa = PBXGroup;
+			children = (
+				96AF00238D658E82050C8BDD5448F587 /* CppItem.cpp */,
+				E4E36086490D99BE2A94D3F90AFCA44C /* CppItem.h */,
+				B6F94F00504E321B5A65CBE9EFE8D53B /* CppWrapper.mm */,
+				66E109B546BCF49B4432F7E3B05EEA52 /* include */,
+				D674061BDD4345CA2D0E42C9494CB3DE /* Pod */,
+				301C9DAD338CDCAB9927C24E48F59F23 /* Support Files */,
+			);
+			name = CCppWrapObjC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC9C4AEE598CC34B3EBBA1AC1EFE1BE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F24E1A9F2454283A86086EF3594FEC /* Pods-CCppWrap_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4985039804E69BC9D0FBF1B3D6211784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B992B9CF23B090098AC0B3AD8F468B7 /* Pods-CCppWrap_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6AB24641B456CF152845268B236A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8465BC22DC230F41AD250BBC0A3FF893 /* CCppWrapObjC-umbrella.h in Headers */,
+				1B3B2CA6C0F0E1A6497D7A52A6BB6CDE /* CppItem.h in Headers */,
+				AB7FBBAF756254E336A6F7E9A60B3434 /* CppWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA50E65E5C37C0453766E80BE129F95E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D166954E7044F4FD8962280A8734A30 /* CCppWrapSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16CAF26D8C190801333575EA96452A1C /* CCppWrapObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35A25246CF4C7EC18AD8FDB8125C627 /* Build configuration list for PBXNativeTarget "CCppWrapObjC" */;
+			buildPhases = (
+				9CB6AB24641B456CF152845268B236A6 /* Headers */,
+				C14870B8DB6A4AFDA2C96BFC1F5BD620 /* Sources */,
+				9077DCA0E00B9E31F68D7534E0814B6E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCppWrapObjC;
+			productName = CCppWrapObjC;
+			productReference = D1F959DF43A073FA66EE76CF630A89DD /* libCCppWrapObjC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88611C3E8A4174226D50CC80FCBD3646 /* CCppWrapSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 178ACD333F6F12865199DEE35C80CF44 /* Build configuration list for PBXNativeTarget "CCppWrapSwift" */;
+			buildPhases = (
+				AA50E65E5C37C0453766E80BE129F95E /* Headers */,
+				D72E7DB167DFD8BAD4FA62A87B0CCD05 /* Sources */,
+				846C935BC536C4E38242F289EF1A04A3 /* Frameworks */,
+				DBC2D315BD9A3BB73B03FF67017C44A6 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7222E727EC30CFA2D8E236CE5E172119 /* PBXTargetDependency */,
+			);
+			name = CCppWrapSwift;
+			productName = CCppWrapSwift;
+			productReference = 4BBEE619F6DD66DCD9805955E3219875 /* libCCppWrapSwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3CC64380B4058FF353A8AD92269CB8F /* Pods-CCppWrap_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1DE6AC1B43DFA341EB99A6A4E71B2E /* Build configuration list for PBXNativeTarget "Pods-CCppWrap_Example" */;
+			buildPhases = (
+				4985039804E69BC9D0FBF1B3D6211784 /* Headers */,
+				FCDE23869E211FEB1411AC6F9520D8ED /* Sources */,
+				7A399D8D86591734B147B19AC3A9AE7D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				551C93947C28D4D5FDC8ECB49BD135D6 /* PBXTargetDependency */,
+				078ED918004EE51DA217EB5B431C01C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CCppWrap_Example";
+			productName = "Pods-CCppWrap_Example";
+			productReference = E564DA0CFBAE85E21935DC2A23590454 /* libPods-CCppWrap_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B0AB73975FC67DBC2C2D8F0727B73956 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16CAF26D8C190801333575EA96452A1C /* CCppWrapObjC */,
+				88611C3E8A4174226D50CC80FCBD3646 /* CCppWrapSwift */,
+				C3CC64380B4058FF353A8AD92269CB8F /* Pods-CCppWrap_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBC2D315BD9A3BB73B03FF67017C44A6 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/WrapSwift/CCppWrapSwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/WrapSwift/CCppWrapSwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CCppWrapSwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WrapSwift/CCppWrapSwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/WrapSwift/CCppWrapSwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C14870B8DB6A4AFDA2C96BFC1F5BD620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D4132C8EEB0A03364D4E7C3873CDCD /* CCppWrapObjC-dummy.m in Sources */,
+				4007DCFB9596D37A5C9924E37119BEA7 /* CppItem.cpp in Sources */,
+				736A69C5ED76D8FB3431A9925EAB4CC7 /* CppWrapper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E7DB167DFD8BAD4FA62A87B0CCD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156F72CD9A56BAC01C6BFA413F9C6E01 /* CCppWrap.swift in Sources */,
+				8283AD34411D4251B27A6727600393B0 /* CCppWrapSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCDE23869E211FEB1411AC6F9520D8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D008449B6E7DA65A2DE4F63762093B7E /* Pods-CCppWrap_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078ED918004EE51DA217EB5B431C01C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCppWrapSwift;
+			target = 88611C3E8A4174226D50CC80FCBD3646 /* CCppWrapSwift */;
+			targetProxy = 9045CC7A8F59DC3AF91575356ED19FAD /* PBXContainerItemProxy */;
+		};
+		551C93947C28D4D5FDC8ECB49BD135D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCppWrapObjC;
+			target = 16CAF26D8C190801333575EA96452A1C /* CCppWrapObjC */;
+			targetProxy = 127D93EFB9CA8D5A73C78BB06212EEC3 /* PBXContainerItemProxy */;
+		};
+		7222E727EC30CFA2D8E236CE5E172119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCppWrapObjC;
+			target = 16CAF26D8C190801333575EA96452A1C /* CCppWrapObjC */;
+			targetProxy = 0E56BA5C0AE5D1C3BD41D1460F8112C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CAF38EFFE8B4E26319E64F0FEEA3E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52E6D474C0991A677010DBFAA2B1159 /* CCppWrapSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CCppWrapSwift/CCppWrapSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/WrapSwift/CCppWrapSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WrapSwift;
+				PRODUCT_NAME = CCppWrapSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		264AA5B7E9B8724C25C8B31FFFF26856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC717F1E316353D0E35F987F0F7741D2 /* Pods-CCppWrap_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCppWrap_Example/Pods-CCppWrap_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D1220DEECDC01CE0C6669CB3F6C5C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6D6CFAED499281F53D1CBC2551CA38 /* CCppWrapSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CCppWrapSwift/CCppWrapSwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/WrapSwift/CCppWrapSwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WrapSwift;
+				PRODUCT_NAME = CCppWrapSwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6943481DB79EFCA4C5CF73F6E78C3B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1D9B51E032E58E859D9D7ACDE808DF /* CCppWrapObjC.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/WrapObjC/CCppWrapObjC.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WrapObjC;
+				PRODUCT_NAME = CCppWrapObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2769C8BBCEE8025DBCDDACFD364707C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89879C9CAC3ADC2AF165C2DE7725FA26 /* CCppWrapObjC.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/WrapObjC/CCppWrapObjC.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = WrapObjC;
+				PRODUCT_NAME = CCppWrapObjC;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8D549748E7E9289AEF1D2CF9C1375D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DD7156D275F6BF85BDE8741DD88720 /* Pods-CCppWrap_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCppWrap_Example/Pods-CCppWrap_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		178ACD333F6F12865199DEE35C80CF44 /* Build configuration list for PBXNativeTarget "CCppWrapSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF38EFFE8B4E26319E64F0FEEA3E32 /* Debug */,
+				5D1220DEECDC01CE0C6669CB3F6C5C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC1DE6AC1B43DFA341EB99A6A4E71B2E /* Build configuration list for PBXNativeTarget "Pods-CCppWrap_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264AA5B7E9B8724C25C8B31FFFF26856 /* Debug */,
+				E8D549748E7E9289AEF1D2CF9C1375D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35A25246CF4C7EC18AD8FDB8125C627 /* Build configuration list for PBXNativeTarget "CCppWrapObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2769C8BBCEE8025DBCDDACFD364707C /* Debug */,
+				6943481DB79EFCA4C5CF73F6E78C3B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module WrapObjC {
+  umbrella header "CCppWrapObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

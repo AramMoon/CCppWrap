@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "f2e25dd1311b71a621742e2fa1185e93"
+build_time: [1614925480, 434495000]
+inputs:
+  "/Users/aram/03_Private/iOS/CCppWrap/Example/CCppWrap/ViewController.swift": [1614925480, 281909303]
+  "/Users/aram/03_Private/iOS/CCppWrap/Example/CCppWrap/AppDelegate.swift": [1614921969, 375818763]

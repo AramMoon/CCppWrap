@@ -1,0 +1,32 @@
+{
+  "name": "CCppWrapSwift",
+  "version": "0.1.2",
+  "authors": "Aram",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://arammoon.web.app/",
+  "source": {
+    "git": "https://github.com/arammoon/CCppWrap.git",
+    "tag": "0.1.2"
+  },
+  "summary": "Synchronization construct for Swift",
+  "description": "C C++ Library for Swift",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.10"
+  },
+  "swift_versions": [
+    "5.0",
+    "5.2"
+  ],
+  "module_name": "WrapSwift",
+  "source_files": "Sources/WrapSwift/*.{swift}",
+  "dependencies": {
+    "CCppWrapObjC": [
+      "0.1.2"
+    ]
+  },
+  "swift_version": "5.2"
+}

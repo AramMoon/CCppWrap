@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "302c60acbb187f1cb7fda949e6dcba3c"
+build_time: [1614909024, 434188000]
+inputs:
+  "/Users/aram/03_Private/iOS/CCppWrap/Sources/WrapSwift/CCppWrap.swift": [1614909022, 183942612]

@@ -1,0 +1,28 @@
+{
+  "name": "CCppWrapObjC",
+  "version": "0.1.2",
+  "authors": "Aram",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://arammoon.web.app/",
+  "source": {
+    "git": "https://github.com/arammoon/CCppWrap.git",
+    "tag": "0.1.2"
+  },
+  "summary": "Synchronization construct for Objective-C",
+  "description": "C C++ Library for Objective-C",
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.10"
+  },
+  "module_name": "WrapObjC",
+  "prefix_header_file": false,
+  "header_mappings_dir": "Sources/WrapObjC/include/",
+  "public_header_files": "Sources/WrapObjC/include/**/*.h",
+  "source_files": "Sources/WrapObjC/**/*.{h,m,mm,hpp,cpp}",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}/Sources/WrapObjC/include\""
+  }
+}

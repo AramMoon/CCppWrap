@@ -1,0 +1,22 @@
+PODS:
+  - CCppWrapObjC (0.1.2)
+  - CCppWrapSwift (0.1.2):
+    - CCppWrapObjC (= 0.1.2)
+
+DEPENDENCIES:
+  - CCppWrapObjC (from `../`)
+  - CCppWrapSwift (from `../`)
+
+EXTERNAL SOURCES:
+  CCppWrapObjC:
+    :path: "../"
+  CCppWrapSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCppWrapObjC: fa6535fb3693c751c45e36730758669c79d62690
+  CCppWrapSwift: 3d72349f0479222177c0731a8a10ec25195cbac3
+
+PODFILE CHECKSUM: 110b041441d2de309547a25c59cc2318d15ab270
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="CCppWrap_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbI-RL-fIZ">
+                                <rect key="frame" x="16" y="0.0" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="cUb-H0-3IE"/>
+                                </constraints>
+                                <state key="normal" title="Library Test"/>
+                                <connections>
+                                    <action selector="libAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cjh-Zm-AxB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oym-A3-cVG">
+                                <rect key="frame" x="16" y="50" width="343" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="nkF-OC-Eif"/>
+                                </constraints>
+                                <state key="normal" title="C Write"/>
+                                <connections>
+                                    <action selector="cAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YUY-0V-dyV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEr-mc-3A6">
+                                <rect key="frame" x="0.0" y="100" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="iJp-ZE-FUN"/>
+                                </constraints>
+                                <state key="normal" title="C Read"/>
+                                <connections>
+                                    <action selector="cReadAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="V6L-2k-VQ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1I-gW-ykf">
+                                <rect key="frame" x="0.0" y="150" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NR6-0W-iGp"/>
+                                </constraints>
+                                <state key="normal" title="C Clear"/>
+                                <connections>
+                                    <action selector="cClearAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9QD-wy-GEN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="p1I-gW-ykf" secondAttribute="trailing" id="FXd-Vm-RL0"/>
+                            <constraint firstItem="p1I-gW-ykf" firstAttribute="top" secondItem="HEr-mc-3A6" secondAttribute="bottom" id="PPL-Ld-MCV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jbI-RL-fIZ" secondAttribute="trailing" id="R0Y-mA-2lZ"/>
+                            <constraint firstAttribute="trailing" secondItem="HEr-mc-3A6" secondAttribute="trailing" id="bNp-Ee-0iR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Oym-A3-cVG" secondAttribute="trailing" id="diL-7n-T7y"/>
+                            <constraint firstItem="HEr-mc-3A6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="g9O-Rj-bn5"/>
+                            <constraint firstItem="jbI-RL-fIZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="gia-pE-uaz"/>
+                            <constraint firstItem="Oym-A3-cVG" firstAttribute="top" secondItem="jbI-RL-fIZ" secondAttribute="bottom" id="hT4-2d-0n2"/>
+                            <constraint firstItem="p1I-gW-ykf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="kq4-6u-2X0"/>
+                            <constraint firstItem="Oym-A3-cVG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="rP3-rU-3M9"/>
+                            <constraint firstItem="HEr-mc-3A6" firstAttribute="top" secondItem="Oym-A3-cVG" secondAttribute="bottom" id="sM5-rh-caE"/>
+                            <constraint firstItem="jbI-RL-fIZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="x78-yw-Wfw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="101"/>
+        </scene>
+    </scenes>
+</document>
